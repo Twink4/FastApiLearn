@@ -7,7 +7,7 @@ def index():
     return {'title' : 'index',
             'program_versiobn': '0.0.1'}
 
-#О нас
+#О насc
 @app.get('/about_us')
 def about_us():
     return {
